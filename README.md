@@ -32,6 +32,20 @@ Subversion (SVN) is a version control system (VCS) designed for managing and tra
 - Requires a central server, making it a single point of failure.  
 - Less flexible compared to distributed version control systems like Git or Mercurial.  
 
+### Basic SVN Commands  
+
+| Command | Description |
+|---------|------------|
+| `svn checkout <repo_url>` | Checkout (clone) a repository to your local machine. |
+| `svn update` | Update the working copy with the latest changes from the repository. |
+| `svn commit -m "message"` | Commit changes to the repository with a message. |
+| `svn add <file>` | Add a new file to version control. |
+| `svn delete <file>` | Remove a file from version control. |
+| `svn status` | Check the status of modified files. |
+| `svn log` | View commit history. |
+| `svn revert <file>` | Revert changes to a specific file. |
+| `svn diff` | Show differences between working copy and the latest version. |
+
 ---
 
 ## Mercurial (Hg)  
@@ -53,6 +67,21 @@ Mercurial is a distributed version control system (DVCS) designed for speed and 
 ### Disadvantages of Mercurial  
 - Less popular than Git, leading to fewer third-party integrations.  
 - Larger repository sizes compared to Git due to design differences.  
+
+### Basic Mercurial Commands  
+
+| Command | Description |
+|---------|------------|
+| `hg clone <repo_url>` | Clone a repository to your local machine. |
+| `hg pull` | Fetch the latest changes from a remote repository. |
+| `hg update` | Apply the latest changes to your working directory. |
+| `hg commit -m "message"` | Commit changes to the repository with a message. |
+| `hg add <file>` | Add a new file to version control. |
+| `hg remove <file>` | Remove a file from version control. |
+| `hg status` | Check the status of modified files. |
+| `hg log` | View commit history. |
+| `hg revert <file>` | Revert changes to a specific file. |
+| `hg diff` | Show differences between working copy and the latest version. |
 
 ---
 
